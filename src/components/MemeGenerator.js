@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 function MemeGenerator() {
-  const [randomImage, setRandomImage] = useState("./logo512.png");
+  const [randomImage, setRandomImage] = useState("logo512.png");
   const [memeImage, setMemeImage] = useState([])
   const [topText, setTopText] = useState("")
   const [bottomText, setBottomText]=useState("")
